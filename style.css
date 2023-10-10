@@ -1,0 +1,48 @@
+.second{
+    padding: 150px;
+}
+#one{
+    border-radius: 5%;
+}
+.form-signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+}
+
+
+
+*{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 19px;
+}
+li{
+    font-size: 23px;
+}
+.row{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.card-body2{
+    padding: 250px;
+}
+.card-title2{
+    font-size: 35px;
+}
+@media screen and (max-width: 900px) {
+    .second{
+        padding: 0%;
+    }
+        .card-title2{
+            font-size: 23px;}
+
+            .card-body2{
+                padding: 0%;
+    }
+}
+#carouselExampleCaptions{
+    padding: 300px;
+}
